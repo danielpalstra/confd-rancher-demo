@@ -1,0 +1,12 @@
+confd:
+  scale: 1
+  metadata:
+    example:
+      name: hello
+      value: world
+app:
+  scale: 1
+  metadata:
+    example:
+      name: hello
+      value: world

@@ -1,0 +1,9 @@
+app:
+  image: alpine:latest
+  command: /bin/sh -c "while true; do cat /etc/config/*; sleep 1; done"
+  labels:
+   io.rancher.sidekicks: confd
+  volumes_from:
+    - confd
+confd:
+  image: danielpalstra/confd-demo

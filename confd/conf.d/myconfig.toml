@@ -1,0 +1,6 @@
+[template]
+src = "myconfig.conf.tmpl"
+dest = "/etc/config/myconfig.conf"
+keys = [
+  "/services/confd/metadata/example/name"
+]
